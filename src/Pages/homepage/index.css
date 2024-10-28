@@ -1,7 +1,32 @@
 body{
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
-h1{
+.Nome_inicial{
     color: white;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    
 }
     
+.section_descrição{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.t{
+    background-color: white;
+    display: flex;
+    width: 100px;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    align-items: flex-end;
+}
