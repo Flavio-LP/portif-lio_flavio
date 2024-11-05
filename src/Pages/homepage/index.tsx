@@ -3,18 +3,22 @@ import './index.css';
 
 function Homepage() {
   return (
-    <div className="Homepage">
-      <h1 className='Nome_inicial'>Flávio Leandro Pirola</h1>
+    <div className='Page'>
+        <div className="Homepage">
+          <h1 className='Nome_inicial'>Flávio Leandro Pirola</h1>
 
-      <section className='section_descrição'>
-
-        <div className='t'>xxxxxxxxx</div>
+          <section className='section_descrição'>
 
 
-      </section>
 
-      <h1 className='footer'>Desenvolvido por Flávio - 2024</h1>
-    </div>
+          </section>
+
+
+        </div>
+        <footer >
+          <p className='Footer'>Desenvolvido por Flávio - 2024</p>
+        </footer>
+    </div>    
   );
 }
 

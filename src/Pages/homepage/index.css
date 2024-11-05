@@ -1,13 +1,17 @@
 body{
     background-color: black;
-    display: flex;
-    justify-content: center;
 }
+
+.Page{
+    display: flex;
+    flex-direction: column;
+}
+
 .Nome_inicial{
     color: white;
     display: flex;
     justify-content: center;
-    font-family: fantasy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
     
 }
     
@@ -18,15 +22,16 @@ body{
     justify-content: center;
 }
 
-.t{
-    background-color: white;
-    display: flex;
-    width: 100px;
+
+footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 99vw;
 }
 
-.footer{
-    color: white;
+.Footer{
     display: flex;
-    align-items: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
